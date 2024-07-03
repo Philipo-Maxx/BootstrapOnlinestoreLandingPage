@@ -29,7 +29,7 @@
 <body>
     <header>
         <!-- Navbar Section -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-sm">
             <div class="container">
                 <!-- Nav-Brand -->
                 <a class="navbar-brand" href="#">ShopWithUs</a>
@@ -45,16 +45,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link" href="#trending">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+                            <a class="nav-link" href="#review">Review</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Page</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Docs</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                         <li class="nav-item">
                                 <ul class="navbar-nav">
@@ -109,7 +106,7 @@
 
 
 
-        <!-- Trending Products section -->
+        <!-- Products section -->
          <section class="text-center" id="trending">
             <div class="container py-5">
                 <h2 class="mb-4">Our Trending <span class="text-danger">products</span></h2>
@@ -231,7 +228,7 @@
                     <div class="col-12 col-sm-6 col-lg-3 column mt-3">
                         <div class="card">
                             <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
-                                <img src="./image/7.jpg" class="img-fluid" />
+                                <img src="./image/7.jpg" class="img-fluid"/>
                                 <a href="#!">
                                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                                 </a>
@@ -273,22 +270,45 @@
             </div>
          </section>
 
-         <!-- Trending Section Ends -->
+         <!-- Products Section Ends -->
+
+         <!-- Review Section -->
+
+         <section class="review-section" id="review">
+            <div class="w-100 text-dark">
+                <div class="container text-center py-5">
+                    <h3>Client Reviews</h3>
+                    <img class="rounded-circle" style="width: 100px; height: 100px;" src="./image/team-1.jpg" alt="Image_Review">
+                    <p class="my-2">Absolutely brilliant products and services offered by ShopWithUs inc. I was amazed by their wide collection of the latest Winter collection wears and gears. 
+                        <br>
+                        The classiness and sophistication of the collections are out of this world, the best of the best. <br>
+                        As a retialer myself, I gladly recommend ShopWithUs as a good bridge between Major design brands and Fashionistas</p>
+                        <h2>Mark Jevenue</h2>
+                        <p>CEO of Addle</p>
+                </div>
+
+            </div>
+
+         </section>
+
+         <!-- Review Section ends -->
+
+
     
 
 
 
 
 
-         
+
     <!--Footer-->
-    <footer class="bg-light text-lg-start">
+    <footer class="bg-light text-lg-start" id="contact">
         <div class="container">
     
             <hr class="m-0" />
     
             <div class="text-center py-4 align-items-center">
-                <p>Follow Maxi's safe agency on social media</p>
+                <p>Follow ShopWithUs on social media</p>
                 <a href="#" class="btn btn-danger m-1" role="button" data-mdb-ripple-init rel="nofollow" target="_blank">
                     <i class="fab fa-youtube"></i>
                 </a>
@@ -311,6 +331,8 @@
         </div>
         <!-- Copyright -->
     </footer>
+
+    
     <!--Footer-->
     <!-- Javascript for Bootstrap 5.3.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
